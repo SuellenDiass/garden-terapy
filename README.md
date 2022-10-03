@@ -1,6 +1,6 @@
 
 <p align="center">
- <img src="![rosalilas_suellen](https://user-images.githubusercontent.com/102911341/193591371-2beeaac8-c373-4f69-b941-fcd2655f0529.jpg)" width="300" height="300" >
+ <img src="https://user-images.githubusercontent.com/102911341/193591371-2beeaac8-c373-4f69-b941-fcd2655f0529.jpg" width="300" height="300" >
 </p>
 
 
