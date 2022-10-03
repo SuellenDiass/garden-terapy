@@ -1,0 +1,133 @@
+<!-- head são informações para o sistema e nome na aba através title-->
+<!-- link href une html a css--->
+<!-- criar id nas sections e inserir href--->
+<!-- quando criar o script linkar no html--->
+
+<!DOCTYPE html>
+  <html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Terapia com flores</title>
+      <link href="css/style.css" rel="stylesheet">
+      <link rel="shortcut icon" href="/img/favicon_created_by_logaster (2).ico" type="image/x-icon" />
+    </head>
+    <body>     
+        <h1> Terapia com flores </h1>
+      <nav class="menu_principal" >
+        <ul>
+          <li>
+            <a  href="#rosas_amarela">Rosas Amarelas</a>
+          </li>
+          <li>
+            <a  href="#rosas_vermelhas">Rosas vermelhas</a>
+          </li>
+          <li>
+            <a href="#rosas_variadas">Rosas variadas</a>
+          </li>
+        </ul>
+      </nav>
+
+    <!-- tudo que está dentro faz parte mesma seção,traz mais informações sobre 
+o conteúdo da página--->
+
+        <section>
+
+         <h2>Rosas</h2>
+  
+        <p> Benefícios para do cultivo de plantas para a saúde mental: melhora a qualidade de vida
+            aumenta a autoestima, melhora a sensação de bem-estar, reduz o estresse, melhora o humor
+            alivia a depressão, aumenta o autocontrole</p>
+
+          <p> Segue abaixo o resultado do cultivo do meu jardim</p>
+        
+        
+        <img src="img/rosalilas.jpg" alt ="Rosa lilas">
+         
+        <section id="rosas_amarela"> 
+          <h3 class="titulo-verde">Rosas amarelas</h3>
+    
+          <p></p>
+    
+          <img src="img/rosaamarela.png" alt="Rosa amarela.">
+          
+         <section/>
+         <section id="rosas_vermelhas">
+            <h3 class="titulo-vermelho">Rosas vermelhas</h3>
+      
+             <p></p>
+      
+             <p></p>
+           <ul class="slider">
+             <li>                
+               <input type="radio" id="slide1" name="slide" checked>
+               <label for="slide1"></label>
+               <img src="img/rosavermelha1.png" alt="Rosa vermelha1">
+             </li>
+             <li>
+               <input type="radio" id="slide2" name="slide">
+               <label for="slide2"></label>
+               <img src="img/rosavermelha.jpg" alt="Rosa vermelha">
+             </li>
+           </ul>     
+          </section>
+         
+         <section id="rosas_variadas">
+          <h3 class="titulo-amarelo">Flores variadas</h3>
+        
+          <p></p>
+           
+          <p></p>
+
+        <ul class="slider_variadas">
+             <li>                
+               <img src="img/flor-pera.png" alt= "flor pera">
+             </li>
+             <li>
+               <img src="img/flor-maracujar.png" alt="flor maracujar">
+             </li>
+             <li>
+               <img src="img/variadas2.jpg" alt="flor variada">
+             </li>
+           </ul> 
+         
+         
+         
+        
+         </section>
+  
+          
+         </section>
+   <footer>  
+      <h3>Conheça outros blogs</h3>
+
+<!-- ul (lista não ordenada, ol (lista ordenada)-->
+<!--Tag target="_blank" para a aba não ser carregada e abrir nova aba-->
+<!--Tag nav para tudo que for uma sessão navegavel-->
+      <nav> 
+        <ul>
+          <li>
+             <a href="https://gardentherapy.ca/start-here/" target="_blank">Gardentheapy</a>
+          </li>
+          
+        </ul>
+      </nav> 
+      <h4>Quer saber mais terapia com flores? Deixe seu email</h4>
+     <!-- referente ao ponto inserção--->
+      <form class="formulario">
+             
+        <label for="nome">Nome:</label>
+        <input id="nome" type="text" placeholder="Digite seu nome">
+        
+        <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="Digite um email">
+        
+        <label for="telefone">Telefone:</label>
+        <input id="telefone" type="number" placeholder="Digite numero telefone">
+       
+        <button id="botaoEnviar">Enviar</button>
+      </form>
+     <script type ="text/javascript" src="js/script.js"></script >
+     </footer>
+    </body>
+  </html>
+

@@ -1,0 +1,182 @@
+/***Estiliza a página do html***/
+
+body{
+  /**alinhando o texto da página**/
+  /**color cor da fonte**/
+  text-align:center;
+  font-family: Open sans, sans-serif;
+  background-color:  #8093F1;
+  color: #F7AEF8;
+  margin: 0px 0px 30px 0px;
+  /***0px ocupa toda tela ***/
+  
+}
+/**subtitulo**/
+h2{
+  color: white;
+  font-size: 40px;
+}
+.titulo-verde{
+  color: #04ff9f;
+}
+.titulo-vermelho{
+  color: #FF9E9E;
+}
+.titulo-amarelo{
+  color: #ffe36d ;
+}
+/**unidades absolutas: pixel e não muda o tamanho independente do tamanho do dispositivo que ele for usado unidades relativas: porcentagem independente do tamanho do dipositivo ele vai manter o tamanho **/
+
+section{
+ 
+    width: 60%;
+    margin:0 auto;
+    
+}
+section section{
+  width: 100%;
+}
+
+h1{
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h3{
+  font-size:22px;
+  font-style: italic;
+}
+
+p{
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+img,rosas_vermelhas{
+  width:50%;
+
+}
+/** reset dos elementos através do CSS*/
+/* { margin: 0; padding: 0; }/*/
+.slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 50%;
+    width:  50%;
+    vertical-align: top;
+}
+/*esconder todos os “inputs”, fazendo com que somente o label apareça.*/
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color:#99ffff;
+    /*bottom: 10px;*/
+    bottom: 4em;
+    cursor: pointer;
+    display: block;
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    z-index: 10;
+    
+}
+.button{
+  color: blue;
+}
+/*botao lateral*/
+.slider li:nth-child(1) label {
+    right:10px;
+    vertical-align: super;
+    
+}
+
+.slider li:nth-child(2) label {
+    right:10px;
+}
+
+.slider li:nth-child(3) label {
+    right:10px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+ul{
+  /***nenhum estilo tipo de lista***/
+  list-style-type: none;
+  line-height: 2;
+  padding-left: 0;
+}
+a{
+    text-decoration: none;
+    color: #99ffff;
+    font-weight: 700;
+    
+ }
+.menu_principal{
+  background: #F7AEF8;
+   height: 40px;
+  max-width: 60%; /**comprimento faixa menu*/
+ margin: 0 auto;
+}
+
+/***referente as tags a ***/
+.menu_principal a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: normal;
+  
+}
+/***inline-block alinha o menu um do lado do outro ***/
+/***margin espaçamento um  do menu um do lado do outro ***/
+.menu_principal li{
+  display: inline-block;
+  line-height: 2.5;
+  margin: 0 10px;
+}
+/**pseudoclasses aplica mesmo estilo para dois seletores ao mesmo tempo**/
+.menu_principal a:hover{
+  color: #f4acb7;
+  
+}
+/**muda cor do botao ao clicar em cima**/
+button{
+  background: #99ffff;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+  transition: all 0.5s linear;
+ }
+button:hover{
+  background-color: #f4acb7;
+  color: white;
+  
+}
+/**referente caixa dialogo**/
+input {
+  background-color:#8093F1 ;
+  color: white;
+}
+input::placeholder{
+  color: white;
+}
