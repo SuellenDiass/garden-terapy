@@ -23,8 +23,8 @@ As linguagens envolvidas na construção de um site são essas e cada uma possui
 - [x] CSS - define a aparência, o estilo dos elementos.
 - [x] JavaScript - define os comportamentos e interações.
 
-https://garden-terapy.suellensouza.repl.co
-https://suellendiass.github.io/garden-terapy
+- [x] https://garden-terapy.suellensouza.repl.co
+- [x] https://suellendiass.github.io/garden-terapy
 
 
 
