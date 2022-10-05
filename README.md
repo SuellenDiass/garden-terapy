@@ -24,6 +24,8 @@ As linguagens envolvidas na construção de um site são essas e cada uma possui
 - [x] JavaScript - define os comportamentos e interações.
 
 https://garden-terapy.suellensouza.repl.co
+https://suellendiass.github.io/garden-terapy
+
 
 
 
